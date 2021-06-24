@@ -11,16 +11,8 @@ images:
 
 ## Articles
 
-A list of articles will appear here
+{% for page in collections.page %}
 
-> This is a blockquote
-
-- item one
-- item 2
-
-1. item three
-1. item 4
-
-```js
-querySelector();
-```
+  <h2><a href="{{ page.url }}">{{ page.data.pageTitle | upcase }}</a></h2>
+  <em>{{ page.date | date: "%Y-%m-%d" }}</em>
+{% endfor %}
