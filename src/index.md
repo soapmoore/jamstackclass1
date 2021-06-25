@@ -1,18 +1,10 @@
 ---
 layout: layout.html
 pageTitle: New York Today
-tags: page
-navTitle: Home
-images:
-  - apples.png
-  - apples-red.png
-  - apples-group.png
 ---
 
 ## Articles
 
-{% for page in collections.page %}
+<div class="stories">replace me!</div>
 
-  <h2><a href="{{ page.url }}">{{ page.data.pageTitle | upcase }}</a></h2>
-  <em>{{ page.date | date: "%Y-%m-%d" }}</em>
-{% endfor %}
+<button>Show Stories</button>
