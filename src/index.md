@@ -3,8 +3,8 @@ layout: layout.html
 pageTitle: New York Today
 ---
 
-## Articles
+# Articles
 
-<div class="stories">replace me!</div>
+<div class="stories">Loading...</div>
 
 <button>Show Stories</button>
